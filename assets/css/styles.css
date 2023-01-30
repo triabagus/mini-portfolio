@@ -242,7 +242,33 @@ img {
 }
 
 /*=============== FILTERS TABS ===============*/
+.filters__content{
+  margin: 2rem 0 2.5rem;
+  background: var(--text-color-lighten);
+  padding: .375rem;
+  border-radius: .75rem;
+  display: flex;
+  justify-content: space-between;
+  column-gap: .5rem; 
+}
 
+.filters__button{
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 1rem;
+  color: var(--title-color);
+  font-size: var(--small-font-size);
+  font-family: var(--body-font);
+  border-radius: .75rem;
+  cursor: pointer;
+  background: transparent;
+  transition: .3s;
+}
+
+.filters__button:hover{
+  background: var(--body-color);
+}
 
 /*=============== PROJECTS ===============*/
 
