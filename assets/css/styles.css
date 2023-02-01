@@ -376,10 +376,27 @@ img {
 }
 
 /*=============== FOOTER ===============*/
-
+.footer__copy{
+  display: block;
+  margin: 2.5rem 0 2rem;
+  text-align: center;
+  font-size: var(--smaller-font-size);
+}
 
 /*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar{
+  width: .6rem;
+  background: hsl(var(--hue), 8%, 66%);
+}
 
+::-webkit-scrollbar-thumb{
+  border-radius: .5rem;
+  background: hsl(var(--hue), 8%, 54%);
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: hsl(var(--hue), 8%, 44%);
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
