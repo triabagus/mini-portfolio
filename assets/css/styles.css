@@ -5,16 +5,18 @@
 :root {
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
+  /* Reference: https://colors.dopely.top/ */
   /*
       Blue: hsl(207, 90%, 61%)
       Purple: hsl(250, 66%, 75%)
       Pink: hsl(356, 66%, 75%)
       Teal: hsl(174, 63%, 62%)
+      Light Sky Blue hsl(200 , 91% , 78%)
   */
 
-  --hue: 207;
-  --sat: 90%;
-  --lig: 61%;
+  --hue: 200; 
+  --sat: 91%;
+  --lig: 78%;
   --first-color: hsl(var(--hue), var(--sat), var(--lig));
   --first-color-alt: hsl(var(--hue), var(--sat), 57%); /* -4% */
   --title-color: hsl(var(--hue), 12%, 15%);
